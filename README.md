@@ -1,4 +1,4 @@
-<h2 align="left">Hello World 🌍 its Aliyah and I'm an Aspiring Data Analyst Manager</h2>
+<h2 align="left">Hello World 🌍 I'm Aliyah and I'm an Aspiring Data Analyst Manager</h2>
 
 ###
 
