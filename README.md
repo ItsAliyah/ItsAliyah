@@ -1,58 +1,44 @@
-# Hello World, it's Aliyah 👋  
-I'm an **Aspiring Data Analyst Manager** with interests in data analytics, technology, and business strategy.  
+<h2 align="left">Hello World 🌍 its Aliyah and I'm an Aspiring Data Analyst Manager</h2>
 
----
+###
 
-## 🌟 About Me
-- 🎓 Freshman at **Grambling State University**, majoring in CIS and minoring in Marketing  
-- ⚾ Student-athlete balancing over 30+ hours of commitments weekly while exploring **sports analytics**  
-- 📊 Passionate about using **data to drive decision-making**  
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ItsAliyah&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ItsAliyah&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
----
+###
 
-## 🔗 Connect with Me
-- 💼 [LinkedIn](https://www.linkedin.com/in/aliyahd)  
-- 📷 [Instagram](https://www.instagram.com/its.deet)  
-- 📧 [Gmail](mailto:aliyahdugars@gmail.com)  
+<img align="right" height="150" src="https://i.pinimg.com/originals/43/79/4f/43794f40dc5258b961748b89cb900bb9.gif"  />
 
----
+###
 
-## 🛠 Skills
-- **Data Tools:** Excel, Power BI, SQL basics  
-- **Programming:** Python, JavaScript, HTML, CSS  
-- **Business:** Marketing insights, project collaboration, and strategy  
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+</div>
 
----
+###
 
-## 🎵 Spotify API Project Example
-```javascript
-// Authorization token that must have been created previously. 
-// See: https://developer.spotify.com/documentation/web-api/concepts/authorization
-
-const token = 'YOUR_TOKEN_HERE'; 
-
-async function fetchWebApi(endpoint, method, body) {
-  const res = await fetch(`https://api.spotify.com/${endpoint}`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-    method,
-    body: JSON.stringify(body)
-  });
-  return await res.json();
-}
-
-async function getTopTracks(){
-  // Endpoint reference : https://developer.spotify.com/documentation/web-api/reference/get-users-top-artists-and-tracks
-  return (await fetchWebApi(
-    'v1/me/top/tracks?time_range=long_term&limit=5', 'GET'
-  )).items;
-}
-
-const topTracks = await getTopTracks();
-console.log(
-  topTracks?.map(
-    ({name, artists}) =>
-      `${name} by ${artists.map(artist => artist.name).join(', ')}`
-  )
-);
+<div align="left">
+  <a href="https://www.linkedin.com/in/aliyahd" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.instagram.com/its.deet" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  </a>
+  <a href="mailto:aliyahdugars@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+</div>
